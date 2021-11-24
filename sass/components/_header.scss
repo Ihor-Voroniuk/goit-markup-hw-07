@@ -1,0 +1,38 @@
+.header__bg {
+    background-color: var(--color-bg);
+    border-bottom: 1px solid #f5f4fa;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu-nav {
+    display: inline-flex;
+    align-items: center;
+}
+.web-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-link)
+}
+
+.studio-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.web-logo {
+    margin-right: -4px;
+    display: inline-block;
+}
