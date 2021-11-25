@@ -2,9 +2,6 @@
     margin-right: 10px;
 }
 
-.social__icon-svg:hover {
-    fill: var(--color-link);
-}
 
 .social__icon-list {
     display: block;
@@ -17,12 +14,14 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background, fill;
+    &:hover,
+    &:focus{
+        background-color: var(--color-link);
+        fill: #FFFFFF;
+    }
 }
 
-.social__icon-list:hover,
-.social__icon-list:focus {
-    background-color: var(--color-link);
-}
+
 
 .social__icon-list:hover .social__icon-svg,
 .social__icon-list:focus .social__icon-svg {
@@ -33,6 +32,10 @@
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    &:hover,
+    &:focus {
+    fill: #FFFFFF;
+}
 }
 
 .icon-links {

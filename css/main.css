@@ -860,7 +860,6 @@ section {
   margin-top: 30px;
 }
 
-/* what we do */
 .work__list h2 {
   font-style: normal;
   font-weight: bold;
@@ -979,10 +978,6 @@ section {
   margin-right: 10px;
 }
 
-.social__icon-svg:hover {
-  fill: var(--color-link);
-}
-
 .social__icon-list {
   display: block;
   width: 44px;
@@ -1005,9 +1000,9 @@ section {
   transition-property: background, fill;
 }
 
-.social__icon-list:hover,
-.social__icon-list:focus {
+.social__icon-list:hover, .social__icon-list:focus {
   background-color: var(--color-link);
+  fill: #FFFFFF;
 }
 
 .social__icon-list:hover .social__icon-svg,
@@ -1019,6 +1014,10 @@ section {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
+}
+
+.social__icon-svg:hover, .social__icon-svg:focus {
+  fill: #FFFFFF;
 }
 
 .icon-links {
@@ -1078,6 +1077,7 @@ section {
 
 .partners__list-link:focus, .partners__list-link:hover {
   border: 1px solid var(--color-link);
+  fill: var(--color-link);
 }
 
 .partners__list-icon {
@@ -1093,8 +1093,7 @@ section {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.partners__list-link:hover .partners__list-icon,
-.partners__list-link:focus .partners__list-icon {
+.partners__list-icon:focus, .partners__list-icon:hover {
   fill: var(--color-link);
 }
 
@@ -1276,8 +1275,7 @@ section {
   transition-property: background-color;
 }
 
-.footer__links-icon:hover,
-.footer__links-icon:focus {
+.footer__links-icon:hover, .footer__links-icon:focus {
   background-color: var(--color-link);
 }
 

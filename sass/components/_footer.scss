@@ -146,9 +146,9 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color;
+    &:hover,
+    &:focus{
+        background-color: var(--color-link);
+    }
 }
 
-.footer__links-icon:hover,
-.footer__links-icon:focus {
-    background-color: var(--color-link);
-}
